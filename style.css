@@ -1,51 +1,58 @@
-.css{
-    margin-top: 10px ;
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family:  cursive;
 }
-.a1{
-    height:150px;
-    width: 100%;
-    background: black;
-    border: 1px solid;
+h1{
+    text-transform: capitalize;
+    text-align: center;
+    margin: 20px 0px 25px 0px;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
 }
-.a2{
-    height: 430px;
-    width: 10%;
-    background: black;
-    border: 1px solid;
-    float: left;
-    margin-top: 10px ;
+table{
+    border: 1px solid white;
 }
-.a3{
-    height:100px;
-    width: 30%;
-    background: rgb(170, 0, 0);
-    border: 1px solid;
-    margin-top: 10px ;
-    margin-left: 10px;  
+table:hover{
+    
 }
-.a4{
-    height:100px;
-    width: 30%;
-    background: rgb(0, 204, 255);
-    border: 1px solid;
-    margin-right: 10px;
-    margin-left: 10px;
+thead th{
+    border: 1px solid white;
+    background-color: rgb(172, 211, 109);
+    padding: 10px;
+    color: white;
+    font-weight: 480;
 }
-.a5{
-    height:100px;
-    width: 30%;
-    background: rgb(200, 255, 0);
-    border: 1px solid;
-    margin-top: 10px ;
-    margin-right: 10px;
-    margin-left: 10px;
+thead th:hover{
+    border: 1px solid white;
+    background-color: rgb(108, 207, 32);
+    transition: 0.5s;
+    color: aquamarine;
+   }
+tbody th{
+    width: 300px;
+    height: 45px;
+    text-align: left;
+    padding: 3px;
+    box-shadow: 0px 2px 4px gray;
 }
-.a6{
-    height:100px;
-    width: 30%;
-    background: rgb(119, 0, 255);
-    border: 1px solid;
-    margin-top: 10px ;
-    margin-right: 10px;
-    margin-left: 10px;
+tbody th:hover{
+    background-color: rgb(182, 181, 181);
+    transition: 0.5s;
+}
+td{
+    border: none;
+    border-bottom: 1px solid rgb(39, 136, 160);
+    box-shadow: 0px -1.5px 3px rgb(39, 136, 160);
+    width: 150px;
+    text-align: right;
+    padding: 5px;
+}
+td:hover{
+    background-color: rgb(209, 140, 50);
+    color: rgb(245, 225, 199);
+    transition: 0.5s;
+}
+h1{
+    color:  rgb(172, 211, 109);
 }
