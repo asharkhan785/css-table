@@ -1,0 +1,51 @@
+.css{
+    margin-top: 10px ;
+}
+.a1{
+    height:150px;
+    width: 100%;
+    background: black;
+    border: 1px solid;
+}
+.a2{
+    height: 430px;
+    width: 10%;
+    background: black;
+    border: 1px solid;
+    float: left;
+    margin-top: 10px ;
+}
+.a3{
+    height:100px;
+    width: 30%;
+    background: rgb(170, 0, 0);
+    border: 1px solid;
+    margin-top: 10px ;
+    margin-left: 10px;  
+}
+.a4{
+    height:100px;
+    width: 30%;
+    background: rgb(0, 204, 255);
+    border: 1px solid;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.a5{
+    height:100px;
+    width: 30%;
+    background: rgb(200, 255, 0);
+    border: 1px solid;
+    margin-top: 10px ;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.a6{
+    height:100px;
+    width: 30%;
+    background: rgb(119, 0, 255);
+    border: 1px solid;
+    margin-top: 10px ;
+    margin-right: 10px;
+    margin-left: 10px;
+}
